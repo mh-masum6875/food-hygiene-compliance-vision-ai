@@ -1,6 +1,8 @@
 # Food Hygiene Compliance and Kitchen Safety Vision
 
-[![HACCP](https://img.shields.io/badge/Compliance-HACCP%20%26%20Food%20Safety-brightgreen)](https://github.com/mh-masum6875/food-hygiene-compliance-vision-ai)
+Part of my [applied computer vision portfolio](https://github.com/mh-masum6875/enterprise-computer-vision-solutions).
+
+[![HACCP](https://img.shields.io/badge/Compliance-HACCP%20%26%20Food%20Safety-brightgreen)](https://github.com/mh-masum6875/food-hygiene-vision)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org/)
 [![Ultralytics](https://img.shields.io/badge/YOLO-Ultralytics-00FFFF)](https://ultralytics.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -24,10 +26,10 @@ An automated computer vision audit system engineered for commercial kitchens, Qu
 - Spatial detector identifying covered vs uncovered food containers and utensils.
 - Time-decay tracking: Automatically triggers sanitation alerts when food is left exposed for more than 30 seconds.
 
-### 4. Sanitation & Floor Mopping Detection (`sanitation_mopping_detector.py`)
+### 4. Sanitation & Floor Mopping Detection
 - Open-vocabulary cross-object interaction engine: correlates cleaning apparatus (broom, mop, brush, scrubber) with floor regions to verify facility sanitation schedules.
 
-### 5. Food Processing Poultry Conveyor Counter (`poultry_conveyor_counter.py`)
+### 5. Food Processing Poultry Conveyor Counter
 - Class-agnostic tracking counting food units on processing conveyor lines with automated throughput reporting.
 
 ---
@@ -35,8 +37,8 @@ An automated computer vision audit system engineered for commercial kitchens, Qu
 ## Quickstart
 
 ```bash
-git clone https://github.com/mh-masum6875/food-hygiene-compliance-vision-ai.git
-cd food-hygiene-compliance-vision-ai
+git clone https://github.com/mh-masum6875/food-hygiene-vision.git
+cd food-hygiene-vision
 pip install -r requirements.txt
 
 # Run Hairnet Compliance Detector
