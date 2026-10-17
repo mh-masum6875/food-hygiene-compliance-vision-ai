@@ -1,4 +1,4 @@
-# 🍳 Food Hygiene Compliance & Kitchen Safety Vision AI
+# Food Hygiene Compliance and Kitchen Safety Vision
 
 [![HACCP](https://img.shields.io/badge/Compliance-HACCP%20%26%20Food%20Safety-brightgreen)](https://github.com/mh-masum6875/food-hygiene-compliance-vision-ai)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org/)
@@ -9,10 +9,10 @@ An automated computer vision audit system engineered for commercial kitchens, Qu
 
 ---
 
-## 📸 Core Capabilities
+## Core Capabilities
 
 ### 1. Kitchen Headwear & Hairnet Compliance (`kitchen_headwear_detector.py`)
-- Multi-class model (`Person`, `Hairnet`, `No Hairnet`) ensuring 100% headwear compliance in food preparation areas.
+- Multi-class model (`Person`, `Hairnet`, `No Hairnet`) checking headwear compliance in food preparation areas.
 - **Geometric Alignment**: Verifies that headwear centers lie within the upper 40% of the worker bounding box with horizontal tolerance.
 - Temporal persistence: 100-frame trust buffer to prevent false alarms caused by head turning.
 
@@ -32,7 +32,7 @@ An automated computer vision audit system engineered for commercial kitchens, Qu
 
 ---
 
-## 🛠️ Quickstart
+## Quickstart
 
 ```bash
 git clone https://github.com/mh-masum6875/food-hygiene-compliance-vision-ai.git
@@ -48,5 +48,5 @@ python src/handwash_station_timer.py --source basin_feed.mp4
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the MIT License.
